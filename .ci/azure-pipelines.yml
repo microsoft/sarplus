@@ -18,7 +18,7 @@ jobs:
   - bash: |
       cd scala
       sbt makePom
-      mv target/scala-2.11/sarplus_2.11-0.2.5.pom ../
+      mv target/scala-2.11/sarplus_2.11-0.2.5.pom ../pom.xml
     displayName: 'Generate pom.xml'
 
   - task: ComponentGovernanceComponentDetection@0
