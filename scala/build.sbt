@@ -1,6 +1,6 @@
 scalaVersion := "2.11.8"
 
-sparkVersion := sys.env.get("sparkversion").getOrElse("2.3.0")
+sparkVersion := sys.env.get("sparkversion").getOrElse("2.3.3")
 
 spName := "eisber/sarplus"
 
