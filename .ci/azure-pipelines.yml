@@ -15,9 +15,9 @@ jobs:
     vmImage: 'ubuntu-16.04'
 
   steps:
-
   - task: ComponentGovernanceComponentDetection@0
     inputs:
       scanType: 'Register'
       verbosity: 'Verbose'
       alertWarningLevel: 'High'
+      failOnAlert: true
