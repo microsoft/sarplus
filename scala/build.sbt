@@ -2,9 +2,9 @@ scalaVersion := "2.11.8"
 
 sparkVersion := sys.env.get("sparkversion").getOrElse("2.3.3")
 
-spName := "eisber/sarplus"
+spName := "microsoft/sarplus"
 
-organization := "eisber"
+organization := "microsoft"
 name := "sarplus"
 
 version := "0.2.5" 
