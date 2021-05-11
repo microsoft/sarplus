@@ -10,17 +10,17 @@ jobs:
     vmImage: 'Ubuntu 16.04'
   strategy:
     matrix:
-      Python35-Spark2.3:
-        python.version: '3.5'
-        spark.version: '2.3.0'
       Python36-Spark2.3:
         python.version: '3.6'
         spark.version: '2.3.0'
-      Python35-Spark2.4.1:
-        python.version: '3.5'
-        spark.version: '2.4.1'
       Python36-Spark2.4.1:
         python.version: '3.6'
+        spark.version: '2.4.1'
+      Python37-Spark2.3:
+        python.version: '3.7'
+        spark.version: '2.3.0'
+      Python37-Spark2.4.1:
+        python.version: '3.7'
         spark.version: '2.4.1'
     maxParallel: 4
 
