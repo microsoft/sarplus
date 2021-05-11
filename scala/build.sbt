@@ -14,6 +14,7 @@ sparkComponents ++= Seq("core", "sql", "mllib")
 libraryDependencies ++= Seq(
   "commons-io" % "commons-io" % "2.6",
   "com.google.guava" % "guava" % "25.0-jre",
+  "org.spark-packages" % "sbt-spark-package" % "0.2.6",
   "org.scalatest" %% "scalatest" % "3.0.5" % "test",
   "org.scalamock" %% "scalamock" % "4.1.0" % "test"
 )
