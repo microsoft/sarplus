@@ -24,6 +24,11 @@
             <version>2.11.8</version>
         </dependency>
         <dependency>
+            <groupId>org.spark-packages</groupId>
+            <artifactId>sbt-spark-package</artifactId>
+            <version>0.2.6</version>
+        </dependency>        
+        <dependency>
             <groupId>org.apache.spark</groupId>
             <artifactId>spark-core_2.11</artifactId>
             <version>2.4.5</version>
