@@ -6,6 +6,7 @@
 jobs:
 
 - job: 'Test'
+  timeoutInMinutes: 120
   pool:
     vmImage: 'Ubuntu 16.04'
   strategy:
